@@ -1,0 +1,256 @@
+00:00.0 Host bridge [0600]: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
+	Subsystem: Razer USA Ltd. Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [1a58:6752]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Capabilities: <access denied>
+	Kernel driver in use: skl_uncore
+00: 86 80 04 59 06 00 90 00 02 00 00 06 00 00 00 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 e0 00 00 00 00 00 00 00 00 00 00 00
+
+00:02.0 VGA compatible controller [0300]: Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
+	Subsystem: Razer USA Ltd. HD Graphics 620 [1a58:6752]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 124
+	Region 0: Memory at db000000 (64-bit, non-prefetchable) [size=16M]
+	Region 2: Memory at 90000000 (64-bit, prefetchable) [size=256M]
+	Region 4: I/O ports at f000 [size=64]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: i915
+	Kernel modules: i915
+00: 86 80 16 59 07 04 10 00 02 00 00 03 00 00 00 00
+10: 04 00 00 db 00 00 00 00 0c 00 00 90 00 00 00 00
+20: 01 f0 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 40 00 00 00 00 00 00 00 00 01 00 00
+
+00:14.0 USB controller [0c03]: Intel Corporation Sunrise Point-LP USB 3.0 xHCI Controller [8086:9d2f] (rev 21) (prog-if 30 [XHCI])
+	Subsystem: Razer USA Ltd. Sunrise Point-LP USB 3.0 xHCI Controller [1a58:6752]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 122
+	Region 0: Memory at dc310000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+00: 86 80 2f 9d 06 04 90 02 21 30 03 0c 00 00 80 00
+10: 04 00 31 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 70 00 00 00 00 00 00 00 ff 01 00 00
+
+00:14.2 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Thermal subsystem [8086:9d31] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP Thermal subsystem [1a58:6752]
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin C routed to IRQ 18
+	Region 0: Memory at dc32d000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel_pch_thermal
+	Kernel modules: intel_pch_thermal
+00: 86 80 31 9d 02 00 10 00 21 00 80 11 00 00 00 00
+10: 04 d0 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 50 00 00 00 00 00 00 00 ff 03 00 00
+
+00:15.0 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #0 [8086:9d60] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP Serial IO I2C Controller [1a58:6752]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at dc32c000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+00: 86 80 60 9d 06 00 10 00 21 00 80 11 10 00 80 00
+10: 04 c0 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 80 00 00 00 00 00 00 00 ff 01 00 00
+
+00:15.1 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #1 [8086:9d61] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP Serial IO I2C Controller [1a58:6752]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin B routed to IRQ 17
+	Region 0: Memory at dc32b000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+00: 86 80 61 9d 06 00 10 00 21 00 80 11 10 00 80 00
+10: 04 b0 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 80 00 00 00 00 00 00 00 ff 02 00 00
+
+00:16.0 Communication controller [0780]: Intel Corporation Sunrise Point-LP CSME HECI #1 [8086:9d3a] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP CSME HECI [1a58:6752]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 123
+	Region 0: Memory at dc32a000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+00: 86 80 3a 9d 06 04 10 00 21 00 80 07 00 00 80 00
+10: 04 a0 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 50 00 00 00 00 00 00 00 ff 01 00 00
+
+00:1c.0 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port #3 [8086:9d12] (rev f1) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin C routed to IRQ 18
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000f000-00000fff
+	Memory behind bridge: dc000000-dc1fffff
+	Prefetchable memory behind bridge: 00000000fff00000-00000000000fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+00: 86 80 12 9d 07 00 10 00 f1 00 04 06 00 00 81 00
+10: 00 00 00 00 00 00 00 00 00 01 01 00 f0 00 00 20
+20: 00 dc 10 dc f1 ff 01 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 ff 03 10 00
+
+00:1c.4 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port #5 [8086:9d14] (rev f1) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Bus: primary=00, secondary=02, subordinate=3a, sec-latency=0
+	I/O behind bridge: 00002000-00002fff
+	Memory behind bridge: c4000000-da0fffff
+	Prefetchable memory behind bridge: 00000000a0000000-00000000c1ffffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+00: 86 80 14 9d 07 00 10 00 f1 00 04 06 00 00 81 00
+10: 00 00 00 00 00 00 00 00 00 02 3a 00 20 20 00 20
+20: 00 c4 00 da 01 a0 f1 c1 00 00 00 00 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 ff 01 10 00
+
+00:1d.0 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port #9 [8086:9d18] (rev f1) (prog-if 00 [Normal decode])
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	Bus: primary=00, secondary=3b, subordinate=3b, sec-latency=0
+	I/O behind bridge: 0000f000-00000fff
+	Memory behind bridge: dc200000-dc2fffff
+	Prefetchable memory behind bridge: 00000000fff00000-00000000000fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+00: 86 80 18 9d 07 00 10 00 f1 00 04 06 00 00 81 00
+10: 00 00 00 00 00 00 00 00 00 3b 3b 00 f0 00 00 20
+20: 20 dc 20 dc f1 ff 01 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 40 00 00 00 00 00 00 00 ff 01 10 00
+
+00:1e.0 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Serial IO UART Controller #0 [8086:9d27] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP Serial IO UART Controller [1a58:6752]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 20
+	Region 0: Memory at dc329000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+00: 86 80 27 9d 06 00 10 00 21 00 80 11 10 00 80 00
+10: 04 90 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 80 00 00 00 00 00 00 00 ff 01 00 00
+
+00:1f.0 ISA bridge [0601]: Intel Corporation Sunrise Point-LP LPC Controller [8086:9d58] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP LPC Controller [1a58:6752]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+00: 86 80 58 9d 07 00 00 02 21 00 01 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:1f.2 Memory controller [0580]: Intel Corporation Sunrise Point-LP PMC [8086:9d21] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP PMC [1a58:6752]
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Region 0: Memory at dc324000 (32-bit, non-prefetchable) [disabled] [size=16K]
+00: 86 80 21 9d 00 00 00 00 21 00 80 05 00 00 80 00
+10: 00 40 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:1f.3 Audio device [0403]: Intel Corporation Sunrise Point-LP HD Audio [8086:9d71] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP HD Audio [1a58:6752]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 32
+	Interrupt: pin A routed to IRQ 137
+	Region 0: Memory at dc320000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at dc300000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel, snd_soc_skl
+00: 86 80 71 9d 06 04 10 00 21 00 03 04 00 20 00 00
+10: 04 00 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 04 00 30 dc 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 50 00 00 00 00 00 00 00 ff 01 00 00
+
+00:1f.4 SMBus [0c05]: Intel Corporation Sunrise Point-LP SMBus [8086:9d23] (rev 21)
+	Subsystem: Razer USA Ltd. Sunrise Point-LP SMBus [1a58:6752]
+	Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 16
+	Region 0: Memory at dc328000 (64-bit, non-prefetchable) [size=256]
+	Region 4: I/O ports at f040 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+00: 86 80 23 9d 03 00 80 02 21 00 05 0c 00 00 00 00
+10: 04 80 32 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 41 f0 00 00 00 00 00 00 00 00 00 00 58 1a 52 67
+30: 00 00 00 00 00 00 00 00 00 00 00 00 ff 01 00 00
+
+01:00.0 Network controller [0280]: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter [168c:003e] (rev 32)
+	Subsystem: Bigfoot Networks, Inc. QCA6174 802.11ac Wireless Network Adapter [1a56:1535]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 136
+	Region 0: Memory at dc000000 (64-bit, non-prefetchable) [size=2M]
+	Capabilities: <access denied>
+	Kernel driver in use: ath10k_pci
+	Kernel modules: ath10k_pci
+00: 8c 16 3e 00 06 04 10 00 32 00 80 02 00 00 00 00
+10: 04 00 00 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 56 1a 35 15
+30: 00 00 00 00 40 00 00 00 00 00 00 00 ff 01 00 00
+
+3b:00.0 Non-Volatile memory controller [0108]: Intel Corporation SSD 600P Series [8086:f1a5] (rev 03) (prog-if 02 [NVM Express])
+	Subsystem: Intel Corporation SSD 600P Series [8086:390a]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 16
+	NUMA node: 0
+	Region 0: Memory at dc200000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+00: 86 80 a5 f1 06 04 10 00 03 02 08 01 00 00 00 00
+10: 04 00 20 dc 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 86 80 0a 39
+30: 00 00 00 00 40 00 00 00 00 00 00 00 ff 01 00 00
+

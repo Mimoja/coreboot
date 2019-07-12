@@ -1,0 +1,2 @@
+/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
+/dev/mem: Permission denied
