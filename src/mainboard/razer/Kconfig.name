@@ -1,2 +1,2 @@
 config VENDOR_RAZER
-	bool "RAZER"
+	bool "Razer"

@@ -1,7 +1,8 @@
 /*
  * This file is part of the coreboot project.
  *
- * Copyright (C) 2017 Purism SPC.
+ * Copyright (C) 2014 Google Inc.
+ * Copyright (C) 2015 Intel Corporation.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -13,12 +14,16 @@
  * GNU General Public License for more details.
  */
 
-#ifndef _MAINBOARD_PEI_DATA_H_
-#define _MAINBOARD_PEI_DATA_H_
+#ifndef MAINBOARD_SPD_H
+#define MAINBOARD_SPD_H
+
+#include <gpio.h>
+#include "../gpio.h"
+
+#define RCOMP_TARGET_PARAMS 0x5
 
 void mainboard_fill_dq_map_data(void *dq_map_ptr);
 void mainboard_fill_dqs_map_data(void *dqs_map_ptr);
 void mainboard_fill_rcomp_res_data(void *rcomp_ptr);
 void mainboard_fill_rcomp_strength_data(void *rcomp_strength_ptr);
-
 #endif

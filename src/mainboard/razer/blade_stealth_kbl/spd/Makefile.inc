@@ -1,7 +1,8 @@
 ##
 ## This file is part of the coreboot project.
 ##
-## Copyright (C) 2015 Google Inc.
+## Copyright (C) 2014 Google Inc.
+## Copyright (C) 2015 Intel Corporation.
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -13,8 +14,9 @@
 ## GNU General Public License for more details.
 ##
 
-subdirs-y += spd
+romstage-y += spd_util.c
 
-ramstage-y += mainboard.c
-ramstage-y += ramstage.c
-ramstage-y += hda_verb.c
+SPD_BIN = $(obj)/spd.bin
+
+SPD_SOURCES += micron_dimm_MT52L512M32D2PF-107	# 0b0001  8GB
+SPD_SOURCES += micron_dimm_MT52L1G32D4PG-107	# 0b0010 16GB
