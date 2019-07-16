@@ -21,6 +21,7 @@
 
 #ifndef __ACPI__
 
+/* Pad configuration in ramstage. */
 static const struct pad_config gpio_table[] = {
 	/* RCIN# */ _PAD_CFG_STRUCT(GPP_A0, 0x44000702, 0x0),
 	/* LAD0 */ _PAD_CFG_STRUCT(GPP_A1, 0x44000702, 0x3c00),
@@ -43,7 +44,7 @@ static const struct pad_config gpio_table[] = {
 	/* ISH_GP0 */ _PAD_CFG_STRUCT(GPP_A18, 0x44000702, 0x0),
 	/* ISH_GP1 */ _PAD_CFG_STRUCT(GPP_A19, 0x44000702, 0x0),
 	/* ISH_GP2 */ _PAD_CFG_STRUCT(GPP_A20, 0x44000702, 0x0),
-	/* ISH_GP3 */ _PAD_CFG_STRUCT(GPP_A21, 0x44000700, 0x0),
+	/* ISH_GP3 */ _PAD_CFG_STRUCT(GPP_A21, 0x44000702, 0x0),
 	/* GPIO */ _PAD_CFG_STRUCT(GPP_A22, 0x44000201, 0x0),
 	/* GPIO */ _PAD_CFG_STRUCT(GPP_A23, 0x40100102, 0x0),
 	/* CORE_VID0 */ _PAD_CFG_STRUCT(GPP_B0, 0x44000700, 0x0),

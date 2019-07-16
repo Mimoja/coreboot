@@ -1,25 +1,24 @@
-
-
 if BOARD_RAZER_BLADE_STEALTH_KBL
 
 config BOARD_SPECIFIC_OPTIONS
 	def_bool y
 	select SYSTEM_TYPE_LAPTOP
 	select BOARD_ROMSIZE_KB_8192
-	select HAVE_ACPI_RESUME
-	select HAVE_ACPI_TABLES
+	select SUPERIO_ITE_IT8528E
 	select SOC_INTEL_KABYLAKE
 	select MAINBOARD_USES_FSP2_0
-	select GENERIC_SPD_BIN
 	select MAINBOARD_HAS_LPC_TPM
-	select SUPERIO_ITE_IT8528E
-	select INTEL_GMA_ACPI
+	select MAINBOARD_HAS_TPM2
+	select GENERIC_SPD_BIN
+	select HAVE_ACPI_RESUME
+	select HAVE_ACPI_TABLES
 	select HAVE_IFD_BIN
 	select HAVE_ME_BIN
-	select CHECK_ME
 	select ADD_FSP_BINARIES
-	select FSP_USE_REPO
-	select CONSOLE_SPI_FLASH
+	select FSP_USE_REPO # mainline compatible?
+	select CHECK_ME # only-dev
+	select CONSOLE_SPI_FLASH # only-dev
+	select CCACHE # only-dev
 
 	config IRQ_SLOT_COUNT
 		int
@@ -62,14 +61,6 @@ config BOARD_SPECIFIC_OPTIONS
 	config VGA_BIOS_ID
 		string
 		default "8086,5917"
-
-	config DIMM_MAX
-		int
-		default 2
-
-	config DIMM_SPD_SIZE
-		int
-		default 512
 
 	config CPU_MICROCODE_CBFS_LEN
 		hex
