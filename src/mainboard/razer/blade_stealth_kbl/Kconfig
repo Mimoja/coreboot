@@ -34,7 +34,7 @@ config BOARD_SPECIFIC_OPTIONS
 
 	config MAINBOARD_PART_NUMBER
 		string
-		default "H03"
+		default "H2U"
 
 	config MAINBOARD_VERSION
 		string
