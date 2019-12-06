@@ -1,0 +1,2 @@
+config BOARD_RAZER_BLADE_STEALTH_ICL
+	bool "Blade Stealth Icelake U (2019)"

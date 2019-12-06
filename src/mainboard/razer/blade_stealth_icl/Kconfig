@@ -1,0 +1,44 @@
+if BOARD_RAZER_BLADE_STEALTH_ICL
+
+config BOARD_SPECIFIC_OPTIONS
+	def_bool y
+	select BOARD_ROMSIZE_KB_16384
+	select EC_ACPI
+	select PLATFORM_USES_FSP2_0
+	select GENERIC_SPD_BIN
+	select HAVE_ACPI_RESUME
+	select HAVE_ACPI_TABLES
+	select GENERIC_SPD_BIN
+	select DRIVERS_I2C_HID
+	select DRIVERS_I2C_GENERIC
+	select DRIVERS_USB_ACPI
+	select SOC_INTEL_COMMON_BLOCK_HDA_VERB
+	select SOC_INTEL_ICELAKE
+	select MAINBOARD_USES_IFD_EC_REGION
+	select ADD_FSP_BINARIES
+	select FSP_USE_REPO
+
+config MAINBOARD_DIR
+	string
+	default "razer/blade_stealth_icl"
+
+config MAINBOARD_PART_NUMBER
+	string
+	default "L"
+
+config MAINBOARD_FAMILY
+	string
+	default "BLADE_STEALTH"
+
+config MAX_CPUS
+	int
+	default 4
+
+config UART_FOR_CONSOLE
+	int
+	default 2
+
+config NO_POST
+	default y
+
+endif
